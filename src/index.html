@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="header_nav">
+        <img class="header_logo" src="./images/slotsza_logo.svg" />
+        <div class="topnav" id="myTopnav">
+          <a href="#home">BEST BONUSES</a>
+          <div class="dropdown">
+            <button class="dropbtn">ONLINE CASINOS</button>
+            <div class="dropdown-content">
+              <a href="#">Casino Listings</a>
+              <a href="#">Casinos by Province</a>
+              <a href="#">ZAR Online Casinos</a>
+              <a href="#">Reviews</a>
+              <a href="#">Software</a>
+              <a href="#">Land-Based Casino Resorts</a>
+            </div>
+          </div>
+          <a href="#contact">ZAR BANKING</a>
+          <a href="#about">GAMES</a>
+          <a href="#about">NEWS</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+            >&#9776;</a
+          >
+        </div>
+        <div class="top_right_icons">
+          <i
+            class="fas fa-search fa-2x"
+            style="padding: 10%; cursor: pointer"
+          ></i>
+          <i
+            id="h_menu"
+            class="fas fa-bars fa-2x"
+            style="padding: 10%; cursor: pointer"
+            onclick="toggleFunction()"
+          ></i>
+          <i
+            id="c_menu"
+            style="padding: 10%; cursor: pointer; display: none"
+            class="fas fa-times fa-2x"
+            onclick="toggleFunction()"
+          ></i>
+        </div>
+      </nav>
+      <div id="slideDown" class="hidden">
+        <div class="dropdown">
+          <button class="dropbtn">BEST BONUSES</button>
+          <button class="dropbtn">ONLINE CASINOS</button>
+          <button class="dropbtn">ZAR BANKING</button>
+          <button class="dropbtn">GAMES</button>
+          <button class="dropbtn">NEWS</button>
+        </div>
+      </div>
+    </header>
+    <section class="section_one">
+      <div class="section_one_content">
+        <h2>South Africa's Best Online Casino & Slot Game Review site</h2>
+        <p>
+          Welcome to <b>SlotsZAR</b>, South Africa’s number one provider of
+          independent casinos and slot game reviews. At Slotszar it is our
+          mission to make sure you get the most out of your online playing
+          experience.
+        </p>
+        <p>
+          Through our comprehensive review and ratings structure, along with our
+          dedicated team of iGaming experts, we aim to bring you valuable and
+          credible iGaming information that extends far beyond just great
+          reviews.
+        </p>
+        <p>
+          We have worked tirelessly to create the most comprehensive online
+          casino destination that is packed with the most valuable online casino
+          and slot game related information. From the latest reviews, to the
+          hottest bonus offers and exclusive promotions, player guides and
+          critical gaming information, we push the boundaries to cover it all.
+        </p>
+      </div>
+    </section>
+    <section class="section_two">
+      <div class="section_two_content">
+        <div class="card_horisontal">
+          <div class="card_horisontal_col_left">
+            <img src="./images/Casinos/springbok.png" />
+            <button class="button" style="margin-top: 20px">Play</button>
+            <span style="margin-top: 20px"><b>Read Review</b></span>
+          </div>
+          <div class="card_horisontal_col_right">
+            <h3>Springbok Casino</h3>
+            <span>
+              <i class="fas fa-star gold"></i>
+              <i class="fas fa-star gold"></i>
+              <i class="fas fa-star gold"></i>
+              <i class="fas fa-star gold"></i>
+              <i class="fas fa-star-half-alt gold"></i>
+            </span>
+            <span>Score: <b>4.5</b></span>
+            <span><b>R350</b> Exclusive</span>
+            <span><b>SlotZar</b> Bonus</span>
+            <span>Code: K3XTG</span>
+            <span style="color: red">T&Cs Apply. 18+</span>
+          </div>
+        </div>
+        <div class="card_horisontal">
+          <div class="card_horisontal_col_left">
+            <img src="./images/Casinos/jebo.png" />
+            <button class="button" style="margin-top: 20px">Play</button>
+            <span style="margin-top: 20px"><b>Read Review</b></span>
+          </div>
+          <div class="card_horisontal_col_right">
+            <h3>Yebo Casino</h3>
+            <span>
+              <i class="fas fa-star gold"></i>
+              <i class="fas fa-star gold"></i>
+              <i class="fas fa-star gold"></i>
+              <i class="fas fa-star gold"></i>
+              <i class="fas fa-star-half-alt gold"></i>
+            </span>
+            <span>Score: <b>4.5</b></span>
+            <span><b>R12,000</b> Welcome Offer</span>
+            <span><b>+ R350</b> Free Chip</span>
+            <span>Code: NEW350</span>
+            <span style="color: red">T&Cs Apply. 18+</span>
+          </div>
+        </div>
+        <div class="card_horisontal">
+          <div class="card_horisontal_col_left">
+            <img src="./images/Casinos/silversands.png" />
+            <button class="button" style="margin-top: 20px">Play</button>
+            <span style="margin-top: 20px"><b>Read Review</b></span>
+          </div>
+          <div class="card_horisontal_col_right">
+            <h3>Silversands</h3>
+            <span>
+              <i class="fas fa-star gold"></i>
+              <i class="fas fa-star gold"></i>
+              <i class="fas fa-star gold"></i>
+              <i class="fas fa-star gold"></i>
+              <i class="fas fa-star-half-alt gold"></i>
+            </span>
+            <span>Score: <b>4.5</b></span>
+            <span><b>R8,888</b> Welcome Package</span>
+            <span>Code: K3XTG</span>
+            <span style="color: red">T&Cs Apply. 18+</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section_three">
+      <div class="section_three_content">
+        <div class="card_vertical">
+          <img src="./images/Casinos/thunderbolt.png" />
+          <h3>Thunderbolt</h3>
+          <span>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star-half-alt gold"></i>
+          </span>
+          <span>Score: <b>4.5</b></span>
+          <span><b>100</b>Free Spin Exclusive Bonus</span>
+          <span><b>Code:</b> K3XTG</span>
+          <span style="color: red">T&Cs Apply. 18+</span>
+          <button class="button" style="margin-top: 20px">Play</button>
+          <span style="margin-top: 20px"><b>Read Review</b></span>
+        </div>
+        <div class="card_vertical">
+          <img src="./images/Casinos/spartansslots.png" />
+          <h3>Spartan Slots</h3>
+          <span>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star-half-alt gold"></i>
+          </span>
+          <span>Score: <b>4.5</b></span>
+          <span><b>25 Free Spins</b> (No Deposit) </span>
+          <span><b>+750%</b>Bonus</span>
+          <span><b>Code:</b>N/A</span>
+          <span style="color: red">T&Cs Apply. 18+</span>
+          <button class="button" style="margin-top: 20px">Play</button>
+          <span style="margin-top: 20px"><b>Read Review</b></span>
+        </div>
+        <div class="card_vertical">
+          <img src="./images/Casinos/punt.png" />
+          <h3>Punt Casino</h3>
+          <span>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star-half-alt gold"></i>
+          </span>
+          <span>Score: <b>4.5</b></span>
+          <span><b>R10,000</b>Welcome Bonus</span>
+          <span><b>15%</b>Daily Cashbacks</span>
+          <span><b>Code:</b>N/A</span>
+          <span style="color: red">T&Cs Apply. 18+</span>
+          <button class="button" style="margin-top: 20px">Play</button>
+          <span style="margin-top: 20px"><b>Read Review</b></span>
+        </div>
+        <div class="card_vertical">
+          <img src="./images/Casinos/zar.png" />
+          <h3>ZAR Casino</h3>
+          <span>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star gold"></i>
+            <i class="fas fa-star-half-alt gold"></i>
+          </span>
+          <span>Score: <b>4.5</b></span>
+          <span><b>200%</b>up to <b>R15,000</b></span>
+          <span><b>100</b>Free Spins</span>
+          <span><b>Code:</b>N/A</span>
+          <span style="color: red">T&Cs Apply. 18+</span>
+          <button class="button" style="margin-top: 20px">Play</button>
+          <span style="margin-top: 20px"><b>Read Review</b></span>
+        </div>
+      </div>
+    </section>
+    <section class="section_four">
+      <div class="section_four_content">
+        <span
+          ><i class="fas fa-money-bill-wave" style="color: seagreen"></i>
+          <h3 style="padding: 1em">
+            Banking options available for South Africans
+          </h3></span
+        >
+        <p>
+          Online casinos offer a variety of methods for you to easily fund your
+          casino account. These options range from credit and debit cards to
+          various online payment <b>e-wallets</b> such as <b>Skrill</b> and
+          <b>Neteller</b>. There are also instant EFT options available which
+          allow you to make immediate payments to your casino account.
+        </p>
+        <div class="payment_methods">
+          <img class="payment_logo" src="./images/Deposit Methods/skrill.png" />
+          <img
+            class="payment_logo"
+            src="./images/Deposit Methods/neteller.png"
+          />
+          <img
+            class="payment_logo"
+            src="./images/Deposit Methods/easyeft.png"
+          />
+          <img class="payment_logo" src="./images/Deposit Methods/sd.png" />
+          <img class="payment_logo" src="./images/Deposit Methods/visa.png" />
+          <img
+            class="payment_logo"
+            src="./images/Deposit Methods/mastercard.png"
+          />
+        </div>
+
+        <p>
+          Each of our casino reviews will indicate the choices on offer by
+          various casinos. All casinos listed on the site are ZAR friendly, this
+          means they accept the local South African currency (Rand) and you can
+          deposit and cashout winnings in Rand.
+        </p>
+      </div>
+    </section>
+    <section class="section_five">
+      <div class="section_five_content">
+        <span
+          ><i class="fas fa-print" style="color: steelblue"></i>
+          <h3 style="padding: 1em">Latest articles</h3></span
+        >
+        <div class="news_position">
+          <div class="card_news">
+            <img src="./images/News/news_1.jpg" />
+            <div style="padding: 1em">
+              <h3>Rabbit Hole Riches Video Slot By Play'n GO</h3>
+              <p><span>By: Slots Nutter </span><span>Oct 28, 2020</span></p>
+              <p>
+                Alice in Wonderland is a story full of weird, wonderful and
+                interesting characters so a video slot based around the...
+              </p>
+              <button
+                class="button"
+                style="margin-top: 20px; background-color: steelblue"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+          <div class="card_news">
+            <img src="./images/News/news_2.jpg" />
+            <div style="padding: 1em">
+              <h3>10 001 Nights Online Slot By Red Tiger</h3>
+              <p><span>By: Slots Nutter </span><span>Oct 24, 2020</span></p>
+              <p>
+                Getting its name from the collection of Middle Eastern folk
+                tales, this video slot game from Red Tiger Gaming has...
+              </p>
+              <button
+                class="button"
+                style="margin-top: 20px; background-color: steelblue"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+          <div class="card_news">
+            <img src="./images/News/news_3.jpg" />
+            <div style="padding: 1em">
+              <h3>Betzest Casino Review</h3>
+              <p><span>By: Slots Nutter </span><span>Oct 24, 2020</span></p>
+              <p>
+                Are you looking for a one stop shop for pretty much everything
+                related to the world of online betting under...
+              </p>
+              <button
+                class="button"
+                style="margin-top: 20px; background-color: steelblue"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+          <div class="card_news">
+            <img src="./images/News/news_4.jpg" />
+            <div style="padding: 1em">
+              <h3>Frog Fortunes Online Slot By Realtime Gaming</h3>
+              <p><span>By: Slots Nutter </span><span>Oct 23, 2020</span></p>
+              <p>
+                Frogs aren’t generally held in high regard with many people out
+                there and as such they don’t pay much mind...
+              </p>
+              <button
+                class="button"
+                style="margin-top: 20px; background-color: steelblue"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer_top">
+        <div class="footer_top_content">
+          <nav class="footer_top_nav">
+            <ul>
+              <li>Contact Us</li>
+              <li>About Us</li>
+              <li>Disclaimer</li>
+              <li>Privacy Policy</li>
+              <li>Terms & Conditions</li>
+            </ul>
+          </nav>
+          <span class="footer_top_social">
+            <i class="fab fa-facebook-square fa-2x" style="padding: 1%"></i>
+            <i class="fab fa-twitter-square fa-2x" style="padding: 1%"></i>
+            <i class="fas fa-rss-square fa-2x" style="padding: 1%"></i>
+          </span>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <span>Copyright © 2021 Slotszar.co.za</span>
+      </div>
+    </footer>
+  </body>
+</html>
